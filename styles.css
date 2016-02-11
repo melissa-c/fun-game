@@ -1,0 +1,47 @@
+body {
+  font-family: helvetica, sans-serif;
+  text-align: center;
+  font-weight: normal;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+table {
+  margin: 2em auto;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-width: 405px
+  min-height: 405px;
+  border: 5px solid #000;
+  border-collapse: collapse;
+  padding: 0;
+  cursor: pointer;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  border-collapse: collapse;
+  padding: 0;
+}
+
+button {
+  width: 200px;
+  height: 30px;
+  background-color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.found {
+  background-color: yellow;
+  opacity: 0.6;
+}
+
+.wrong {
+  background-color: red;
+  opacity: 0.6;
+}
