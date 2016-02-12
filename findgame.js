@@ -23,7 +23,14 @@ $(document).ready(function(){
   All other cells have default "wrong" state.
 */
 
-
+$("td").click(function(){
+  $(".noPanda").css("color", "red").delay(400).queue(function(){
+    $(".noPanda").css("color", "transparent").dequeue();
+  });
+  $(this).addClass("wrong").delay(400).queue(function(){
+    $(this).removeClass("wrong").dequeue();
+  });
+});
 
 
 
