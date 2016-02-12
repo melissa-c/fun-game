@@ -32,6 +32,15 @@ $("td").click(function(){
   });
 });
 
+$("#snow").click(function(){
+  $(this).removeClass("wrong");
+  $(this).addClass("found");
+  $(".yesPanda").show().css("color", "green");
+  $(".noPanda").hide();
+  $("#main").click(function(){
+    $("td").off();
+  });
+});
 
 
 
